@@ -1,18 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>
-            Calvin's Coffee Shop - Home
-        </title>
-    </head>
-    <body>
-        <h1>
-            Calvin's Coffe Shop
-        </h1>
-        <p>Welcome to Calvin's coffee shop webpage!</p>
-    </body>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -20,20 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calvin's Cofee Shop - Home</title>
 </head>
+
 <body>
-    
+
     <!-- Site header -->
     <header>
         <h1>Calvin's Coffee Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a><li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
     </header>
     <!-- Starting main content of the page -->
     <main>
         <!-- article of the page. Can be used as stand-alone -->
         <article>
             <h2>Our Story</h2>
+            <!-- adding an image -->
+            <img src="./images/coffee-shop.jpg" alt="coffee cup on a pile of beans">
             <!-- inline tags display information within block elements-->
             <p>
-                We are a <em>family owned business</em>. Calvin is the <abbr title="Chief Executive Officer">CEO</abbr> and head barista of the shop. Maria is the pastry chef and is in-charge of the bake shop. Celebrating their 10<sup>th</sup> anniversary together in March 2023. 
+                We are a <em>family owned business</em>. Calvin is the <abbr title="Chief Executive Officer">CEO</abbr>
+                and head barista of the shop. Maria is the pastry chef and is in-charge of the bake shop. Celebrating
+                their 10<sup>th</sup> anniversary together in March 2023.
             </p>
             <blockquote>
                 We love all things coffee! <cite>- Calvin and Maria</cite>
@@ -42,7 +40,7 @@
             <section>
                 <h3>Ottawa</h3>
                 <p>
-                    We are a local coffee shop based in Ottawa. Our speciality is <b>organic free-trade</b> coffee. 
+                    We are a local coffee shop based in Ottawa. Our speciality is <b>organic free-trade</b> coffee.
                 </p>
             </section>
         </article>
@@ -59,7 +57,7 @@
         <section>
             <h3>Events</h3>
             <ol>
-                <li>June 23<sup>rd</sup> - Coffee for Hop Foundation </li>
+                <li>June 23<sup>rd</sup> - Coffee for Hope Foundation </li>
                 <li>July 17<sup>th</sup> - Live Music</li>
             </ol>
         </section>
@@ -87,6 +85,34 @@
                 </dd>
             </dl>
         </section>
+        <section>
+            <!--adding a section for menu table-->
+            <h3>Menu Specials</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2"> Items</th>
+                        <th rowspan="2"> Price</th>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <th>Calories</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Banana Bread</td>
+                        <td>250</td>
+                        <td>&dollar;6.00</td>
+                    </tr>
+                    <tr>
+                        <td>Oatmeal</td>
+                        <td>110</td>
+                        <td>&dollar;8.00</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
     </main>
     <!-- Site footer -->
     <footer>
@@ -94,14 +120,5 @@
         Copyright &copy; Calvin's Coffee Shop, 2023
     </footer>
 </body>
+
 </html>
-
-
-    <!-- // WEEK 3 missing 
-
-// WEEK 4: 
-
-// <-- adding an external link -->
-<a href="https://www.allrecipes.com/recipe/20144/banana-banana-bread/">
-    target = "_blank">Get the recipie</a>
- -->
