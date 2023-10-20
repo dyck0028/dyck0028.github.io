@@ -1,0 +1,137 @@
+/* This is a css comment
+shortcut for comment is CTRL and /  */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(63, 66, 68) ;
+}
+h1{
+    color: rgb(27, 104, 30);
+}
+p{
+    background-color: rgb(154, 203, 181);
+}
+/* selecting mutiple elements */
+h1, h2, h3, h4 {
+    text-decoration: underline;
+}
+
+/* selecting child elements */
+nav ul {
+    list-style: none;
+}
+
+nav ul a {
+
+    color:dimgray;
+    text-decoration: none;
+    font-size: 1.5rem;
+    /* 1.5rem = 16px x  */
+}
+
+/* selecting element with ID value, avoid using IDs for styles */
+#treatoftheweek {
+    background: cadetblue url(../images/bread.jpg) no-repeat center;
+    background-size: cover;
+    font-size: 1.25rem;
+    /* 1.25 * 16px = 20px */
+    padding: 1em;
+    /* 1em = one of the element font size, so 20px */
+    /* width: 100vw; */
+    /* height */
+    height: 100vh;
+    width: 50%;
+}
+
+.blue-link {
+    background-color: blanchedalmond;
+    color: blue;
+    text-decoration: none;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.white-text {
+    color: yellow;
+}
+
+/* adjacent sibling selector - sleects the element that is very next sibling to selected element, if any exist */
+h3+ul {
+    border: 1px solid black;
+}
+/* sibling selector */
+h3~p {
+    text-transform: uppercase;
+}
+
+/* attribute selector */
+[href="treatoftheweek"] {
+    font-weight: bold;
+}
+
+[src$=".jpg"] {
+    border: 4px solid darkslategray
+}
+
+/* using pseudo classes */
+/* styling the navigation */
+nav ul a,
+nav ul a:link,
+nav ul a:visited {
+    background-color: antiquewhite;
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: 12px, 2px, 4px, 3px black;
+}
+nav ul.current,
+nav ul a:hover,
+nav ul a:focus {
+    text-decoration: underline;
+}
+
+nav ul a:active {
+    box-shadow: 0, 0, 4px, 2px black;
+}
+
+/* position selectors */
+/* first-child and last-child */
+aside ul li:first-child {
+font-weight: bold;
+}
+
+section ol li:last-child {
+    font-weight: bold;
+}
+
+/* styling the table */
+table {
+    border-collapse: collapse;
+}
+
+/* nth-child seletor */
+tbody tr:nth-child(even) {
+    /* hex color value w 6 characters */
+    background-color: seagreen;
+}
+
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 1px, solid, black;
+}
+
+/* using formula in nth child selector*/
+table:td :nth-child(2n+1) {
+    background-color: rgba(0red, 0green, 0blue, 0.2alpha);
+}
+
+/* specificity */
+/* formula: inline style, ID, class, Tag-name */
+
+footer.sitefooter
+{background-color: bisque;}
+
+footer
+{background-color: aqua;}
+
+Body footer
+{background-color: aquamarine;}
