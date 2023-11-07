@@ -14,7 +14,7 @@ body {
     color: rgb(0, 0, 0) ;
    max-width: 80%;
    margin: 0 auto;
-   background-color: aliceblue;
+   background-color: rgb(188, 235, 232);
 }
 
 /* adds color and position to header1 */
