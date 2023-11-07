@@ -1,39 +1,45 @@
+/* sets background color */
 html {
-    background-color: rgb(42, 162, 162);
+    background-color: rgb(125, 188, 188);
 }
 
+/* adds padding to main */
 main {
     padding: 0px 10px;
 }
 
-
+/* adds body decoration and size */
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(0, 0, 0) ;
-   max-width: 1000px;
+   max-width: 80%;
    margin: 0 auto;
    background-color: aliceblue;
 }
+
+/* adds color and position to header1 */
 h1 {
     color: rgb(255, 255, 255);
     position: absolute;
-    top: 22%;
+    top: 20%;
     left: 40%;
     font-size: 300%;
 
 }
 
+/* adds color and position to header2 */
 h2 {
     -webkit-text-size-adjust: 88%;
     color: black
     font-size: 80px;
 }
 
-
+/* sets image width */
 img {
     width: 100%;
 }
 
+/* sets image2 width and position */
 #Image-2 {
     width: 200px;
     float: left;
@@ -41,6 +47,7 @@ img {
     
 }
 
+/* styles nav list items */
 nav li {
     display: inline-block;
     width: 33%;
@@ -51,6 +58,7 @@ nav li {
     text-align: center;
 }
 
+/* styles nav a */
 nav a {
     text-decoration: none;
     color: black;
@@ -61,15 +69,18 @@ nav li:first-child {
     border: none;
 }
 
+/* adds background color to p tag */
 p {
     background-color: rgb(154, 203, 181);
 }
 
+/* styles footer */
 footer
 {background-color: rgb(115, 203, 203);
 text-align: right;
 }
 
+/* styles header 3 */
 h3 {
     -webkit-text-size-adjust: 88%;
     color: black
@@ -89,6 +100,7 @@ form div {
     width: 100%;
 }
 
+/* styles subission button */
 button {
     background-color: aliceblue;
     border: 1px solid black;
