@@ -111,6 +111,31 @@ Modular Scale
     text-transform: uppercase;
 }
 
+/* NAVIGATION */
+.nav-list li {
+    border-bottom: 1px solid grey;
+    text-align: center;
+
+}
+
+/* love hate [link visited hover activated] */
+.nav list a,
+.nav-list a:link,
+.nav-list a:visited; {
+    display: block;
+    padding: 1em 0;
+    text-decoration: none;
+}
+
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+background-color: #00add8;
+color: inherit;
+}
+
+
 .btn {
     /* styling the button /
     text-decoration: none;
@@ -127,6 +152,21 @@ Modular Scale
     color: inherit;
 
 }
+
+/* ACTION SECTION */
+
+.actions-list {
+    display:flex;
+    flex-flow: row wrap;
+}
+
+.actions-list li {
+    max-width: 50%
+    padding: 1em;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 /**FOOTER STYLES**/
 .site-footer {
     margin-top: 20px;
@@ -146,6 +186,7 @@ Modular Scale
         font-size: 16px;
     }
     /* brings back mobile logo, sets display to none /
+
     .mobile-logo{
         display: none;
     }
@@ -161,6 +202,21 @@ Modular Scale
         color: white;
     }
 
+/* NAVIGATION */
+
+.nav-list {
+    display: flex;
+}
+.nav-list li {
+    flex: 1;
+    border: none;
+    border-right: 1px solid grey;
+} 
+
+.nav-list li:last-child {
+    border: none;
+}
+
     /**APP SECTION**/
     .app img {
         width: 40%;
@@ -172,6 +228,12 @@ Modular Scale
         float: right;
     }
 
+}
 
+/* *********MEDIA QUERY 800PX******** */
 
+@media screen and (min-width: 800px) {
+    .actions-list li {
+        max-width: 20%;
+    }
 }
