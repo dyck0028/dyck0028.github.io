@@ -1,0 +1,156 @@
+
+/* everything margin */
+.everything {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h1, h2 {
+    padding-left: 5px;
+    background-color: #c78c06;
+}
+  
+  /* List items */
+  nav ul li {
+    color:#c78c06;
+    background-color: #222;
+    text-decoration: none;
+
+  }
+
+  a:visited {
+color: #c78c06;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #222;
+  }
+  
+  /* Main banner styles */
+  main-banner {
+    background-color: #222;
+  }
+  
+  /* Welcome section styles */
+  #welcome,
+  #our-team,
+  #contact {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #c78c06;
+  }
+  
+  /* Navigation styles */
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Content container */
+  .wrapper,
+  container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: darkkhaki;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 10px;
+    clear: both;
+  }
+  
+  /* Main section styles */
+  main {
+    overflow: hidden;
+  }
+  
+  /* Services section styles */
+  #our-services,
+  #our-team {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Vision section with background image */
+  #vision {
+    position: relative;
+  }
+  
+  /* Vision header styles */
+  #vision h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+  }
+  
+  /* Transparent box styles */
+  .transparent-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Card styles */
+  card {
+    width: 50%;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color:#222;
+    color: #c78c06;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* wrapper */
+  .wrapper {
+    background-color: #ffe6ac;
+  }
+
+  /* About section styles */
+  .about {
+    display: flex;
+  }
+  
+  /* HTML styling */
+  html {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+ /* Special styles for h1  */
+ main h1 {
+    font-size: 3em;
+    background-color: #c78c06;
+  }
+
+  /* Special styles for h2  */
+  main h2 {
+    font-size: 4em;
+    background-color:#c78c06;
+  }
+
+  .john {
+    font-size: 3em;
+  }
+
+
+ 
+
+    
+    /* Desktop styles */
+    @media screen and (min-width: 760px) {
+      /* main nav */
+      .Flexbox {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-evenly;
+      }
+    }
